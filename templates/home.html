@@ -3,7 +3,13 @@
 {% block content %}
 <div class="jumbotron">
 <h1 class="display-4">Newspaper app</h1>
-<button class="btn btn-primary ml-3"><a href="{%url 'article_list'%}">All articles</a></button>
+<p class="text-muted">Get news updates every morning </p>
+<button class="btn btn-secondary ml-3"><a href="{%url 'article_list'%}">All articles</a></button>
+<style>
+  a{
+    color: #fff;
+  }
+</style>
 </div>
 <h3>For recent News Updates follow the Site</h3>
 {% endblock content %}
