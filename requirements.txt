@@ -1,5 +1,5 @@
 ﻿cffi==1.15.0
-Django==2.2
+Django
 django-crispy-forms==1.13.0
 pycparser==2.21
 python-dotenv==0.19.1
