@@ -5,12 +5,13 @@ from .models import Article
 from django.urls import reverse_lazy
 
 
-
+# Create article
 class ArticlaCreateView(CreateView):
     model=Article
     template_name='article_create.html'
     fields=('title','body','author',)
-
+    
+#List articles
 class ArticleListView(ListView):
     model=Article
     template_name='article_list.html'
